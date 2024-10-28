@@ -24,7 +24,7 @@ jobs:
           node-version: ${{ matrix.node }}
       - name: Install
         run: npm ci
-      - name: Test
+      - name: Test2
         env:
           PORT: ${{ secrets.PORT }}
         run: npm run test
